@@ -1,0 +1,287 @@
+body{
+font-family: 'Arial',sans-serif;
+margin: 0;
+padding: 0;
+color: #333;
+background-color: #f0f0f0;
+color: #333;
+width: 100%;
+height: 100%;
+}
+
+header {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+	font-size: 2em;
+	color: white;
+}
+p {
+	font-size: 1.2cm;
+	line-height: 1.5;
+}
+.button {
+	display: inline block;
+	background-color: #4B0082;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+
+.button:hover {
+	background-color: #6A0DAD;
+}
+.banner {
+	text-align: center;
+	margin: 20px 0;
+}
+.banner img {
+	width: 100%;
+	height: auto;
+	background-color:#blue ;
+}
+.mission-vision,values{
+	padding: 20px;
+	text-align: center;
+}
+.image-gallery {
+	padding: 20px;
+}
+.images{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.image-item {
+	margin: 10px;
+	text-align: center;
+}
+.images img {
+	width: 200px;
+	height: auto;
+}
+main {
+	padding: 20px;
+}
+h1,h2,h3 {
+	color: #6a1b9a;
+}
+p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+.navbar {
+	background-color: #6a1b9a;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+}
+.navbar {
+	display: inline;
+	margin: 1 15px;
+	color: white;
+	display: flex;
+
+}
+.cta-button {
+	background-color: #6a1b9a;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.cta-button:hover {
+	background-color: #4a148c;
+}
+.statistics {
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	display:block ;
+}
+.about-content img {
+	margin-top: 20px;
+}
+.initiative-item img{
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.stat-item img {
+	margin-bottom: 10px;
+}
+.contact-form buton {
+	background-color: #6a1b9a;
+	color: white;
+	padding: 10px;
+}
+.contact-us {
+	paddi1ng:0;
+	background-color: bisque;
+	width: 100%;
+	height: 100%;
+}
+.Page-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-form input,.contact-form textarea {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.contact-form button:hover {
+	background-color: #4a148c;
+}
+.contact-info {
+	margin-top: 30px;
+	text-align: center;
+}
+.social-media a {
+	margin: 0 10px;
+}
+.social-media img{
+width: 40px;
+height: 40px;
+}
+.map{
+	text-align: center;
+	margin-top: 40px;
+}
+.footer {
+	background-color: #6a1b9a;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+}
+.about-us {
+	padding: 50px;
+	background-color: bisque;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.Page-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.mission-vision {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.mission,.vision {
+	width: 45%;
+}
+.values ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.values li {
+	margin: 10px;
+	font-size: 18px;
+}
+.problem-stats {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+	background-color: bisque;
+}
+.stat-item {
+	background-color: #foe6f7;
+	padding: 20px;
+	width: 30%;
+	border-radius: 10px;
+	text-align: center;
+}
+.team-grid {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.team-member img {
+	width: 30%;
+	text-align: center;
+}
+.team-member img {
+	border-radius: 50%;
+	width: 150px
+		height: 150px;
+	object-fit: cover;
+	margin-bottom: 15px;
+}
+.call-to-action {
+	text-align: center;
+	padding: 50px 0;
+	background-color: #foe6f7;
+}
+.cta-button:hover {
+	background-color: #c17900;
+}
+.footer {
+	background-color: #4B0082;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 50px;
+}
+.flex-container {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.box {
+	background-color: #FFC107;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+	flex: 1;
+	text-align: center;
+}
+.grid-container {
+	display:grid ;
+	gap: 20px;
+	padding: 20px;
+	text-align: ;
+	grid-template-columns: repeat(2, 1fr);
+}
+.grid-item {
+	background-color: #2196F3;
+	color:white;
+	padding: 20px;
+	text-align: center;
+
+}
+@media (max-width: 768px) {
+	.flex-container{
+		flex-direction: column;
+		
+	}
+	.grid-container {
+		grid-template-columns: 1fr;
+	}
+
+
+
+
+	
+	
